@@ -9,8 +9,8 @@ def parse_args():
     parser.add_argument('--cxr_out_path', type=str, default='data/cxr.h5', help="Directory to save processed chest x-ray image data.")
     parser.add_argument('--dataset_type', type=str, default='mimic', choices=['mimic', 'chexpert-test'], help="Type of dataset to pre-process")
     parser.add_argument('--mimic_impressions_path', default='data/mimic_impressions.csv', help="Directory to save extracted impressions from radiology reports.")
-    parser.add_argument('--chest_x_ray_path', default='/work/SAMEED/MMIC/Dataset/MMIC/jpg/', help="Directory where chest x-ray image data is stored. This should point to the files folder from the MIMIC chest x-ray dataset.")
-    parser.add_argument('--radiology_reports_path', default='/work/SAMEED/MMIC/Dataset/MMIC/files/', help="Directory radiology reports are stored. This should point to the files folder from the MIMIC radiology reports dataset.")
+    parser.add_argument('--chest_x_ray_path', default='/pathtodataset/jpg/', help="Directory where chest x-ray image data is stored. This should point to the files folder from the MIMIC chest x-ray dataset.")
+    parser.add_argument('--radiology_reports_path', default='/pathtodataset/files/', help="Directory radiology reports are stored. This should point to the files folder from the MIMIC radiology reports dataset.")
     args = parser.parse_args()
     return args
 

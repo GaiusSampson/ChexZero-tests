@@ -15,8 +15,8 @@ from zero_shot_biobert import make_true_labels, run_softmax_eval
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--cxr_filepath', type=str, default='C:/Users/gaius/OneDrive/Documents/Final Project/Local Swin/CheXzero-main/data/cxr.h5', help="Directory to load chest x-ray image data from.")
-    parser.add_argument('--txt_filepath', type=str, default='C:/Users/gaius/OneDrive/Documents/Final Project/Local Swin/CheXzero-main/data/mimic_impressions.csv', help="Directory to load radiology report impressions text from.")
+    parser.add_argument('--cxr_filepath', type=str, default='/data/cxr.h5', help="Directory to load chest x-ray image data from.")
+    parser.add_argument('--txt_filepath', type=str, default='/data/mimic_impressions.csv', help="Directory to load radiology report impressions text from.")
     parser.add_argument('--batch_size', type=int, default=32)
     parser.add_argument('--epochs', type=int, default=15)
     parser.add_argument('--lr', type=float, default=1e-3)

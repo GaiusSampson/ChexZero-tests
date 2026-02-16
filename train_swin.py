@@ -61,8 +61,8 @@ def load_test_data(cxr_path, pretrained=True):
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--cxr_filepath', type=str, default='/work/SAMEED/MMIC/CheXzero-main/data/cxr.h5', help="Directory to load chest x-ray image data from.")
-    parser.add_argument('--txt_filepath', type=str, default='/work/SAMEED/MMIC/CheXzero-main/data/mimic_impressions.csv', help="Directory to load radiology report impressions text from.")
+    parser.add_argument('--cxr_filepath', type=str, default='/data/cxr.h5', help="Directory to load chest x-ray image data from.")
+    parser.add_argument('--txt_filepath', type=str, default='/data/mimic_impressions.csv', help="Directory to load radiology report impressions text from.")
     parser.add_argument('--batch_size', type=int, default=64)
     parser.add_argument('--epochs', type=int, default=4)  # total epochs to run
     parser.add_argument('--lr', type=float, default=5e-5)
