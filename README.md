@@ -17,7 +17,7 @@ For the Swin transformer make sure CLIP is imported from "swin_model" in train.p
 
 To run Swwin with biobert run the run the run_swint.py file with the flag --use_biobert
 
-### how to use
+### disclaimer
 
 Not all of the code in this project is written by me it is an adaptation of the original chexzero implementation from https://github.com/rajpurkarlab/CheXzero with some help from my acedemic supervisor
 
