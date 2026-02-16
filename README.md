@@ -25,6 +25,6 @@ Not all of the code in this project is written by me it is an adaptation of the 
 
 ### Dependencies
 
-* you will need the MMIC-CXR dataset
+* you will need the MMIC-CXR, CheXpert and PadChest datsets
 * make sure the requirements.txt is installed
 * this program was made on windows 11
