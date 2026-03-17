@@ -15,13 +15,13 @@ To run the standard CLIP text enconder with ViT or RN edit the model name in tra
 
 For the Swin transformer make sure CLIP is imported from "swin_model" in train.py and run the run_swint.py file, ensure the embed dimension is 768
 
-To run Swin with bioclinicalbert run the run the run_swint.py file with the flag --use_biobert.
+To run Swin with bioclinicalbert run the run_swint.py file with the flag --use_biobert.
 
 For FLAVA run the run_flava.py file with an embed dimension of 768.
 
 For FLAVA with bioclinicalbert use the --use_biobert flag with FLAVA.
 
-To evaluate model checkpionts you can use the individual run_zeroshot files or just use the universal ensemble. To do so put the model checkpoints in the matching directory in best_models an run zero_shot_ensemble.py. This can also be used to ensemble different model checkpoints together as long as they are in the correct subdirectory in best_models.
+To evaluate model checkpionts you can use the individual run_zeroshot files or just use the universal ensemble. To do so put the model checkpoints in the matching directory in best_models and run zero_shot_ensemble.py. This can also be used to ensemble different model checkpoints together as long as they are in the correct subdirectory in best_models.
 
 ### disclaimer
 
